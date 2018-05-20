@@ -1,0 +1,16 @@
+{
+  "MotivoInativacao": [
+    {
+      "motivoInativacaoID": "1",
+      "descricao": "Erro no Cadastro"
+    },
+    {
+      "motivoInativacaoID": "2",
+      "descricao": "Cadastro Duplicado"
+    },
+    {
+      "motivoInativacaoID": "3",
+      "descricao": "Informações incompletas"
+    }
+  ]
+}
