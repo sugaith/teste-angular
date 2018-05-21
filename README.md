@@ -8,6 +8,7 @@
     
     1. Faça um fork deste repositório;
     2. Crie uma branch com o seu nome.
+    2. Adicione seu currículo na raiz do repositório.
     3. Envie-nos o PULL-REQUEST para que seja avaliado.
     
 ### Você pode:
@@ -20,10 +21,10 @@
 
 * Seja fiel ao HTML5.
 * Siga todas as regras de tela descrito na documentação
-* Minifique seu CSS. **(observação: faça commit também dos arquivos não minificados)**
-* Minifique seu JS. **(observação: faça commit também dos arquivos não minificados)**
+* Use o Gulp para minificar seu HTML, CSS e JS **(observação: faça commit também dos arquivos não minificados)**
 * Valide os inputs do seu formulário
 * Implemente todo o fluxo de telas descrito na documentação do teste.
+* Certifique-se que a aplicação esteja rodando antes de nos enviar o pull-request
 
 
 **Importante:**
