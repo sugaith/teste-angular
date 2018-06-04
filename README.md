@@ -1,15 +1,29 @@
-
-
-### Esse teste é público. Todos os interessados que fizerem pull request receberão um feedback da equipe Theòs Sistemas
-
 ## Programador Frontend (Angular)
 
 # Instruções
+
+    Esse teste é público. Todos os interessados que fizerem pull request receberão um feedback da equipe Theòs Sistemas
     
     1. Faça um fork deste repositório;
     2. Crie uma branch com o seu nome.
     2. Adicione seu currículo na raiz do repositório.
     3. Envie-nos o PULL-REQUEST para que seja avaliado.
+    
+### O Teste
+
+O teste consiste em implementar um formulário em angular para cadastro de profissão que irá se comunicar com uma API.
+O desenvolvimento precisa contemplar as 4 operações de CRUD, ou seja, inserir, selecionar, alterar e excluir um registro. OS campos que compõe esse formulário são:
+
+    Nome
+	Sobrenome
+	Email
+	Sexo
+	Data (Data do cadastro)
+	Cidade
+	Estado
+	Área de formação
+	Profissão
+
 
 ### Algumas regras do formulário
 
@@ -20,6 +34,7 @@
 * Ainda na tela de busca, deve conter um botão "selecionar" para devolver o registro selecionado para a tela de cadastro em estado de 'Visualização" ou seja, todos os campos bloqueados para edição. Apenas quando clicarmos em "Alterar" os campos deverão ser desabilitados e permitindo então, editar os dados e salvar novamente.
 * Ao editar, salvar ou excluir um registro, atualizar a lista de registros para que na tela de busca, os dados estejam atualizados conforme a ação tomada na tela anterior.
 
+
 ### Esperamos que:
 
 * Utilize as boas praticas do html 5 e que seja fiel a ele.
@@ -28,10 +43,12 @@
 * Valide os campos do formulário
 * Certifique-se que a aplicação esteja rodando antes de nos enviar o pull-request
 
+
 ### Você pode:
 
 * Utilizar qualquer framework CSS (Bootstrap, Material ...)
 * Utilizar componentes do Bower ou NPM
+
 
 ### Ganhe pontos
 
@@ -48,11 +65,7 @@
 * Ao invés de consumir um arquivo .json local para manipulação dos dados, implemente uma API HTTP REST simples, em NodeJS e disponibilize os mesmos dados para consulta, porém via API.
 
 
+### Algumas observações:
 
-**Importante:**
-
-* A versão do Angular instalado para o teste é a 6.0.2
-
-
-
-
+    1. Armazene seus arquivos .json dentro da pasta JSON criado dentro do projeto.
+    2. A versão do Angular instalado é: 6.0.2
