@@ -13,9 +13,9 @@
 ### O Teste
 
 O teste consiste em implementar um formulário em angular para cadastro de profissão que irá se comunicar com uma API.
-OS campos que compõe esse formulário são:
+Os campos que compõe esse formulário são:
 
-    Nome
+    	Nome
 	Sobrenome
 	Email
 	Sexo
@@ -39,6 +39,7 @@ os botões que precisamos nesse formulário são:
 
 * Campos Sexo, Estado, Cidade e Profissão devem ser um Select com as opções para escolha.
 * De acordo com a escolha no campo Estado, alterne entre listas diferentes de cidade. (min 2 estados)
+* Campos Nome, Sobrenome, Email, Área de Formação, Data e Profissão são obrigatórios
 * Garantir que o campo E-mail receba apenas emails válidos.
 * Ao editar, salvar ou excluir um registro, atualizar a lista de registros para que na tela de busca, os dados estejam atualizados conforme a ação tomada na tela anterior.
 * Ao selecionar BUSCAR, o usuário terá acesso a uma tela de busca, onde poderá realizar suas buscas por PROFISSÃO ou NOME COMPLETO. Após realizar a busca, deverá ser possível selecionar um registro na lista, e devolve-lo para o formulario caso o usuário precise editar algum dos dados.
