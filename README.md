@@ -2,7 +2,8 @@
 
 # Instruções
 
-    Esse teste é público. Todos os interessados que fizerem pull request receberão um feedback da equipe Theòs Sistemas
+    Esse teste é público. Todos os interessados que fizerem pull request receberão um feedback da equipe 
+    Theòs Sistemas
     
     1. Faça um fork deste repositório;
     2. Crie uma branch com o seu nome.
@@ -42,7 +43,8 @@ os botões que precisamos nesse formulário são:
 * Ao editar, salvar ou excluir um registro, atualizar a lista de registros para que na tela de busca, os dados estejam atualizados conforme a ação tomada na tela anterior.
 * Ao selecionar BUSCAR, o usuário terá acesso a uma tela de busca, onde poderá realizar suas buscas por PROFISSÃO ou NOME COMPLETO. Após realizar a busca, deverá ser possível selecionar um registro na lista, e devolve-lo para o formulario caso o usuário precise editar algum dos dados.
 	
-		Obs: Os dados do registro selecionado na tela de busca, deverá ficar em estado de "VISUALIZAÇÃO" até o momento em que o usuário clicar em alterar. Só assim, ele poderá editar e salvar as alterações.
+		Obs: Os dados do registro selecionado na tela de busca, deverá ficar em estado de "VISUALIZAÇÃO" até o 
+		momento em que o usuário clicar em alterar. Só assim, ele poderá editar e salvar as alterações.
 
 
 ### Esperamos que:
