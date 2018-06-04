@@ -37,7 +37,7 @@
 
 * Deixando a aplicação responsiva.
 * Utilizando SASS ou LESS.
-* Utilizando interfaces
+* Utilizando interfaces (Typescript)
 * Considerando que essa aplicação pode evoluir, crie um "base-component" para que possa ser herdado com seus métodos padrões.
 * Adicionando um "loader" em cada interação para avisar o usuário que os dados estão sendo carregados ou atualizados.
 * Utilize modal para a tela de BUSCA.
