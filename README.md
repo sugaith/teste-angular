@@ -15,7 +15,7 @@
 O teste consiste em implementar um formulário em angular para cadastro de profissão que irá se comunicar com uma API.
 Os campos que compõe esse formulário são:
 
-    	Nome
+	Nome
 	Sobrenome
 	Email
 	Sexo
