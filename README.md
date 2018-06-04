@@ -12,7 +12,7 @@
 ### O Teste
 
 O teste consiste em implementar um formulário em angular para cadastro de profissão que irá se comunicar com uma API.
-O desenvolvimento precisa contemplar as 4 operações de CRUD, ou seja, inserir, selecionar, alterar e excluir um registro. OS campos que compõe esse formulário são:
+OS campos que compõe esse formulário são:
 
     Nome
 	Sobrenome
@@ -24,15 +24,25 @@ O desenvolvimento precisa contemplar as 4 operações de CRUD, ou seja, inserir,
 	Área de formação
 	Profissão
 
+O desenvolvimento precisa contemplar as 4 operações de CRUD, ou seja, inserir, selecionar, alterar e excluir um registro. Sendo assim, 
+os botões que precisamos nesse formulário são:
+
+	Novo
+	Alterar
+	Excluir
+	Buscar
+	Salvar
+
 
 ### Algumas regras do formulário
 
 * Campos Sexo, Estado, Cidade e Profissão devem ser um Select com as opções para escolha.
 * De acordo com a escolha no campo Estado, alterne entre listas diferentes de cidade. (min 2 estados)
 * Garantir que o campo E-mail receba apenas emails válidos.
-* Na tela de busca, realizar a busca por rofissão ou Nome completo
-* Ainda na tela de busca, deve conter um botão "selecionar" para devolver o registro selecionado para a tela de cadastro em estado de 'Visualização" ou seja, todos os campos bloqueados para edição. Apenas quando clicarmos em "Alterar" os campos deverão ser desabilitados e permitindo então, editar os dados e salvar novamente.
 * Ao editar, salvar ou excluir um registro, atualizar a lista de registros para que na tela de busca, os dados estejam atualizados conforme a ação tomada na tela anterior.
+* Ao selecionar BUSCAR, o usuário terá acesso a uma tela de busca, onde poderá realizar suas buscas por PROFISSÃO ou NOME COMPLETO. Após realizar a busca, deverá ser possível selecionar um registro na lista, e devolve-lo para o formulario caso o usuário precise editar algum dos dados.
+	
+		Obs: Os dados do registro selecionado na tela de busca, deverá ficar em estado de "VISUALIZAÇÃO" até o momento em que o usuário clicar em alterar. Só assim, ele poderá editar e salvar as alterações.
 
 
 ### Esperamos que:
