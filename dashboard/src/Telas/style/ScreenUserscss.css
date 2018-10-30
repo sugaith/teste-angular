@@ -1,0 +1,35 @@
+.precontainer{
+    /*overflow: scroll;*/
+    /*background-color: burlywood;*/
+}
+
+.header{
+
+
+    /*overflow: scroll;*/
+}
+
+
+.root{
+    display: flex;
+    /*background-color: antiquewhite;*/
+
+
+}
+
+.list{
+    width: 100%;
+    flex-direction: row;
+    align-items: stretch;
+    /*background-color: aquamarine;*/
+
+}
+
+.listItem{
+    /*overflow: scroll;*/
+
+}
+
+.listItemCampos{
+    width: 200px;
+}

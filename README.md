@@ -1,84 +1,38 @@
-## Programador Frontend (Angular)
+### TESTE realizado por Thiago Correa da Silva
 
-# Instruções
+## Instruções de Instalação
 
-    Esse teste é público. Todos os interessados que fizerem pull request receberão um feedback da equipe 
-    Theòs Sistemas
+# Front-end
+
+O front está feito em react, na pasta 'dashboard'. Com o Ambiente ReactJS Instalado na Máquina, siga estes passos:
     
-    1. Faça um fork deste repositório;
-    2. Crie uma branch com o seu nome.
-    2. Adicione seu currículo na raiz do repositório.
-    3. Envie-nos o PULL-REQUEST para que seja avaliado.
+    1. Clonar esta pasta (dashboard); 
+    2. Entrar na pasta clonada via command-line
+    3. Digite: npm install || npm start
     
-### O Teste
+    
+# O Back-end
 
-O teste consiste em implementar um formulário em angular para cadastro de profissão que irá se comunicar com uma API.
-Os campos que compõe esse formulário são:
+O back-end foi feito em PHP, Slim Framework, Mysql, apache2. Se encontra em um servidor pessoal na nuvem:
+Os arquivos do back-end se encontram na pasta 'rest', E nao possuem arquicos de confiruraçao do ambiente, apenas código referente ao CRUD e rotas
 
-	Nome
-	Sobrenome
-	Email
-	Sexo
-	Data (Data do cadastro)
-	Cidade
-	Estado
-	Área de formação
-	Profissão
+Instruções de como o back-end foi configurado  [encontram-se no meu github](https://github.com/sugaith/webserice_lamp_slim_ubuntu_tuto).
 
-O desenvolvimento precisa contemplar as 4 operações de CRUD, ou seja, inserir, selecionar, alterar e excluir um registro. Sendo assim, 
-os botões que precisamos nesse formulário são:
+# O que foi feito
 
-	Novo
-	Alterar
-	Excluir
-	Buscar
-	Salvar
+- criação de CRUD de usuarios com profissões
+- formulário com listagem, modal
+- regras de atualização da lista automática
+- checagem de email
+- chegagem de campos obrigatórios
+- busca
+- API
 
+# O que não foi feito
 
-### Algumas regras do formulário
-
-* Campos Sexo, Estado, Cidade e Profissão devem ser um Select com as opções para escolha.
-* De acordo com a escolha no campo Estado, alterne entre listas diferentes de cidade. (min 2 estados)
-* Campos Nome, Sobrenome, Email, Área de Formação, Data e Profissão são obrigatórios
-* Garantir que o campo E-mail receba apenas emails válidos.
-* Ao editar, salvar ou excluir um registro, atualizar a lista de registros para que na tela de busca, os dados estejam atualizados conforme a ação tomada na tela anterior.
-* Ao selecionar BUSCAR, o usuário terá acesso a uma tela de busca, onde poderá realizar suas buscas por PROFISSÃO ou NOME COMPLETO. Após realizar a busca, deverá ser possível selecionar um registro na lista, e devolve-lo para o formulario caso o usuário precise editar algum dos dados.
-	
-		Obs: Os dados do registro selecionado na tela de busca, deverá ficar em estado de "VISUALIZAÇÃO" até o 
-		momento em que o usuário clicar em alterar. Só assim, ele poderá editar e salvar as alterações.
-
-
-### Esperamos que:
-
-* Utilize as boas praticas do html 5 e que seja fiel a ele.
-* Siga todas as regras descritas a cima.
-* Usando  o GULP ou GRUNT, minifique seu HTML, CSS e JS (obs: faça commit também dos arquivos não minificados)
-* Valide os campos do formulário
-* Certifique-se que a aplicação esteja rodando antes de nos enviar o pull-request
-
-
-### Você pode:
-
-* Utilizar qualquer framework CSS (Bootstrap, Material ...)
-* Utilizar componentes do Bower ou NPM
-
-
-### Ganhe pontos
-
-* Deixando a aplicação responsiva.
-* Utilizando SASS ou LESS.
-* Utilizando interfaces (Typescript)
-* Considerando que essa aplicação pode evoluir, crie um "base-component" para que possa ser herdado com seus métodos padrões.
-* Adicionando um "loader" em cada interação para avisar o usuário que os dados estão sendo carregados ou atualizados.
-* Utilize modal para a tela de BUSCA.
-
-
-### Nos surpreenda
-
-* Ao invés de consumir um arquivo .json local para manipulação dos dados, implemente uma API HTTP REST simples, em NodeJS e disponibilize os mesmos dados para consulta, porém via API.
-
-
-### Algumas observações:
-
-    1. Armazene seus arquivos .json dentro da pasta JSON criado dentro do projeto.
-    2. A versão do Angular instalado é: 6.0.2
+- foi deixado alguns campos de lado
+- algumas regras do formulário
+ 
+ 
+ 
+ # Obrigado

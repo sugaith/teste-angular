@@ -1,0 +1,13 @@
+.priContainer{
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+    flex-direction: column;
+    /*background-color: red;*/
+    height: 100%;
+}
+
+.priBox{
+    display: flex;
+    flex-direction: row;
+}
